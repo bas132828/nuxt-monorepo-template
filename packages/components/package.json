@@ -1,0 +1,17 @@
+{
+  "name": "bas-components",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Andrei <1328bas@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
