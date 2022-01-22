@@ -14,9 +14,9 @@
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
     "@bas/test-component-a": "1.0.0",
     "@bas/test-component-b": "1.0.0",
-    "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
@@ -24,6 +24,10 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^27.4.4",
     "jest": "^27.4.4",
-    "vue-jest": "^3.0.4"
+    "vue-jest": "^3.0.4",
+    "css-loader": "5.0.0",
+    "postcss": "13.0.0",
+    "postcss-loader": "^4.1.0",
+    "postcss-url": "^10.1.1"
   }
 }

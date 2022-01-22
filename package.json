@@ -3,6 +3,7 @@
   "private": true,
   "workspaces": [
     "app1",
+    "app2",
     "packages/*"
   ],
   "useWorkspaces": true,
@@ -10,10 +11,10 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "dev": "cd app1/ && nuxt",
-    "build": "cd app1/ nuxt build",
-    "start": "cd app1/ nuxt start",
-    "generate": "cd app1/ nuxt generate",
-    "test": "cd app1/ jest"
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "start": "lerna run start",
+    "generate": "lerna run generate",
+    "test": "lerna run jest"
   }
 }
