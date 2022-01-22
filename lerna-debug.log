@@ -1,0 +1,13 @@
+0 silly argv { _: [ 'bootstrap' ], lernaVersion: '4.0.0', '$0': 'lerna' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/andrejbodrov/Desktop/code/nuxt-monorepo-template
+3 error Error: Invalid package name "@bas-testcomponent": name can only contain URL-friendly characters
+3 error     at invalidPackageName (/Users/andrejbodrov/Desktop/code/nuxt-monorepo-template/node_modules/npm-package-arg/npa.js:84:15)
+3 error     at Result.setName (/Users/andrejbodrov/Desktop/code/nuxt-monorepo-template/node_modules/npm-package-arg/npa.js:119:11)
+3 error     at new Result (/Users/andrejbodrov/Desktop/code/nuxt-monorepo-template/node_modules/npm-package-arg/npa.js:110:10)
+3 error     at Function.resolve (/Users/andrejbodrov/Desktop/code/nuxt-monorepo-template/node_modules/npm-package-arg/npa.js:54:15)
+3 error     at /Users/andrejbodrov/Desktop/code/nuxt-monorepo-template/node_modules/@lerna/package-graph/index.js:66:30
+3 error     at Array.forEach (<anonymous>)
+3 error     at /Users/andrejbodrov/Desktop/code/nuxt-monorepo-template/node_modules/@lerna/package-graph/index.js:60:38
+3 error     at Map.forEach (<anonymous>)
+3 error     at new PackageGraph (/Users/andrejbodrov/Desktop/code/nuxt-monorepo-template/node_modules/@lerna/package-graph/index.js:49:10)
