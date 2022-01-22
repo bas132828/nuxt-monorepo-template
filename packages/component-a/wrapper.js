@@ -1,11 +1,11 @@
 // Импорт vue компонента
-import TestComponent from "./TestComponent.vue";
+import SharedComponentA from "./lib/SharedComponentA.vue";
 
 // Объявление функции установки, выполняемой Vue.use()
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("TestComponent", TestComponent);
+  Vue.component("SharedComponentA", SharedComponentA);
 }
 
 // Создание значения модуля для Vue.use()
@@ -25,4 +25,4 @@ if (GlobalVue) {
 }
 
 // Экспорт компонента, для использования в качестве модуля (npm/webpack/etc.)
-export default TestComponent;
+export default SharedComponentA;

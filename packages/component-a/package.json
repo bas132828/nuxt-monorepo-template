@@ -1,5 +1,5 @@
 {
-  "name": "@bas/test-component",
+  "name": "@bas/test-component-a",
   "main": "wrapper.js",
   "version": "1.0.0",
   "devDependencies": {
