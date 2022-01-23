@@ -1,11 +1,17 @@
 // Импорт vue компонента
 import SharedComponentB from "./lib/SharedComponentB.vue";
+import SharedComponentC from "./lib/SharedComponentC.vue";
 
 // Объявление функции установки, выполняемой Vue.use()
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
   Vue.component("SharedComponentB", SharedComponentB);
+}
+export function install(Vue) {
+  if (install.installed) return;
+  install.installed = true;
+  Vue.component("SharedComponentC", SharedComponentC);
 }
 
 // Создание значения модуля для Vue.use()
@@ -25,4 +31,4 @@ if (GlobalVue) {
 }
 
 // Экспорт компонента, для использования в качестве модуля (npm/webpack/etc.)
-export default SharedComponentB;
+export { SharedComponentB, SharedComponentC };
