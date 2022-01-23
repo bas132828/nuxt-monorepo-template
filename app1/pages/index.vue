@@ -3,6 +3,7 @@
     <SharedComponentA></SharedComponentA>
     <SharedComponentB></SharedComponentB>
     <SharedComponentC></SharedComponentC>
+
     <Tutorial />
   </div>
 </template>
@@ -17,3 +18,4 @@ export default {
   name: "IndexPage",
 };
 </script>
+<style></style>
