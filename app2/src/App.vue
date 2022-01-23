@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link>
       <SharedComponentA />
       <SharedComponentB />
+      <SharedComponentC />
     </div>
     <router-view />
   </div>
@@ -12,11 +13,13 @@
 <script>
 import SharedComponentA from "@bas/test-component-a/lib/SharedComponentA.vue";
 import SharedComponentB from "@bas/test-component-b/lib/SharedComponentB.vue";
+import SharedComponentC from "@bas/test-component-b/lib/SharedComponentC.vue";
 
 export default {
   components: {
     SharedComponentA,
     SharedComponentB,
+    SharedComponentC,
   },
 };
 </script>
