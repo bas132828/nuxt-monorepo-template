@@ -4,7 +4,8 @@
   "workspaces": [
     "app1",
     "app2",
-    "packages/*"
+    "packages/*",
+    "storybook"
   ],
   "useWorkspaces": true,
   "devDependencies": {
