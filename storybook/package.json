@@ -1,6 +1,6 @@
 {
   "name": "packages",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "Andrei",
   "license": "MIT",
@@ -33,7 +33,6 @@
     "babel-plugin-polyfill-corejs3": "^0.5.1",
     "core-js": "^3.20.3"
   },
-  "dependencies": {},
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"

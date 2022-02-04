@@ -1,7 +1,7 @@
 {
   "name": "@bas/test-component-b",
   "main": "wrapper.js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "devDependencies": {
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"

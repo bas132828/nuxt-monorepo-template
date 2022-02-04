@@ -1,6 +1,6 @@
 {
   "name": "app2_vue",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
@@ -8,12 +8,12 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@bas/test-component-a": "^0.0.1",
+    "@bas/test-component-b": "^0.0.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0",
-    "@bas/test-component-a": "1.0.0",
-    "@bas/test-component-b": "1.0.0"
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
